@@ -11,7 +11,7 @@ from yggdrasil.api import deps
 from yggdrasil.core import security
 from yggdrasil.core.config import settings
 from yggdrasil.core.security import get_password_hash
-from yggdrasil.utils import (
+from yggdrasil.services.utils import (
     generate_password_reset_token,
     send_reset_password_email,
     verify_password_reset_token,

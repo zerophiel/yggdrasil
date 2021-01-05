@@ -9,7 +9,7 @@ from yggdrasil.models import domain,schemas
 from yggdrasil.db import repositories
 from yggdrasil.api import deps
 from yggdrasil.core.config import settings
-from yggdrasil.utils import send_new_account_email
+from yggdrasil.services.utils import send_new_account_email
 
 router = APIRouter()
 
